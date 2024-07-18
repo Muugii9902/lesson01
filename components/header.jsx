@@ -3,17 +3,20 @@ const Header = () => {
     color: "red ",
     display: "flex",
     height: "80px",
-    backgroundcolor: "#333",
+    background: "black",
+    justifycontent: "center",
+    alignitems: "center",
   };
   return (
     <header style={styles}>
-      <img src="" alt="" />
-      <div>
-        <ul>
-          <li>Home</li>
-          <li>Service</li>
-          <li>About</li>
-        </ul>
+      <img
+        src="https://static.vecteezy.com/system/resources/thumbnails/012/986/755/small/abstract-circle-logo-icon-free-png.png"
+        alt=""
+      />
+      <div className="head">
+        <h3>Home</h3>
+        <h3>Service</h3>
+        <h3>About</h3>
       </div>
     </header>
   );
