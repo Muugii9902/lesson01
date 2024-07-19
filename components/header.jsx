@@ -1,6 +1,6 @@
 const Header = () => {
   const styles = {
-    color: "red ",
+    color: "white ",
     display: "flex",
     height: "80px",
     background: "black",
@@ -14,7 +14,8 @@ const Header = () => {
         alt=""
       />
       <div className="head">
-        <h3>Home</h3>
+        <h1 class="text-3xl font-bold underline">Hello world!</h1>
+        <h3 className="bg-slate-400">Home</h3>
         <h3>Service</h3>
         <h3>About</h3>
       </div>
